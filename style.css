@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  scroll-behavior: smooth;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-decoration: none;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-color: slategrey;
+}
+
+.head {
+  padding-left: 75px;
+}
+#header {
+  width: 100%;
+  background-color: slateblue;
+  height: 100px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  padding-left: 10px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+.nav {
+  padding-right: 5%;
+}
+
+.nav > a {
+  padding: 0 20px;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #b7b7b7;
+  text-decoration: none;
+}
+
+.nav > i {
+  padding: 0 20px;
+}
+
+/* Creation of Hero Section */
+
+.hero {
+  background-color: skyblue;
+  margin-top: 8%;
+}
+
+.main-heading {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.center-nav {
+  background-color: sienna;
+  margin-top: 8%;
+}
+
+.center-navbar {
+  padding: 0 25px;
+}
+
+.center-navbar > li {
+  padding: 0 20px;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: black;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.dot {
+  padding: 3px;
+  background-color: #b7b7b7;
+  border-radius: 6.25px;
+  display: inline;
+}
+
+.center-navbar > li > a {
+  text-decoration: none;
+  color: #b7b7b7;
+}
+
+.photos-sec {
+  margin-top: 50px;
+  width: 100%;
+  background-color: seagreen;
+  height: 100%;
+}
+
+.row-1 {
+  /* padding: 0px 10px; */
+  /* flex-wrap: wrap; */
+}
+
+.heading {
+  position: absolute;
+  top: 75%;
+  left: 5%;
+  color: white;
+  text-overflow: clip;
+  text-transform: uppercase;
+  text-wrap: wrap;
+}
+
+.heading > h3 {
+  font-size: 20px;
+  text-align: start;
+}
+
+.heading-potrait {
+  /* position: absolute; */
+  text-align: center;
+  padding-top: 90%;
+  color: white;
+  text-overflow: clip;
+  text-wrap: wrap;
+}
+.heading-potrait > h3 {
+  font-size: 20px;
+}
+
+.row1-pic1 {
+  position: relative;
+  border: 5px solid white;
+  width: 400px;
+  height: 350px;
+  background-color: black;
+  background-image: url(/assets/1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.row1-pic2 {
+  position: relative;
+  border: 5px solid white;
+  width: 250px;
+  height: 350px;
+  background-color: black;
+  background-image: url(/assets/3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.row1-pic3 {
+  position: relative;
+  border: 5px solid white;
+  width: 400px;
+  height: 350px;
+  background-color: black;
+  background-image: url(/assets/2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.row1-pic4 {
+  position: relative;
+  border: 5px solid white;
+  width: 400px;
+  height: 350px;
+  background-color: black;
+  background-image: url(/assets/4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* row 2  */
+
+.row2-pic1 {
+  position: relative;
+  border: 5px solid white;
+  width: 350px;
+  height: 350px;
+  background-color: black;
+  background-image: url(/assets/5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.row2-pic2 {
+  position: relative;
+  border: 5px solid white;
+  width: 420px;
+  height: 350px;
+  background-color: black;
+  background-image: url(/assets/19.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.row2-pic3 {
+  position: relative;
+  border: 5px solid white;
+  width: 350px;
+  height: 350px;
+  background-color: black;
+  background-image: url(/assets/6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.row2-pic4 {
+  position: relative;
+  border: 5px solid white;
+  width: 320px;
+  height: 350px;
+  background-color: black;
+  background-image: url(/assets/20.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
