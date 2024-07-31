@@ -9,9 +9,10 @@
 }
 
 .main {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
-  background-color: slategrey;
+  /* overflow-x: hidden; */
+  background-color: rgb(10, 118, 227);
 }
 
 .head {
@@ -19,8 +20,10 @@
 }
 #header {
   width: 100%;
-  background-color: slateblue;
   height: 100px;
+  position: sticky;
+  background-color: white;
+  z-index: 1;
 }
 
 .logo {
@@ -45,7 +48,10 @@
 
 .nav > a:hover {
   text-decoration: underline;
-  color: rgb(8, 90, 8);
+  color: #0ece91;
+  text-decoration-line: line-through;
+  border: 5px;
+  transition: 0.5s;
 }
 .nav > i {
   padding: 0 20px;
@@ -55,7 +61,8 @@
 
 .hero {
   background-color: skyblue;
-  margin-top: 8%;
+  margin-top: 15%;
+  width: 100%;
 }
 
 .main-heading {
@@ -64,7 +71,6 @@
 }
 
 .center-nav {
-  background-color: sienna;
   margin-top: 8%;
 }
 
@@ -76,9 +82,6 @@
   padding: 0 20px;
   text-transform: uppercase;
   font-size: 1rem;
-  color: black;
-  text-decoration: none;
-  list-style-type: none;
 }
 
 .dot {
@@ -97,19 +100,35 @@
   margin-top: 50px;
   width: 100%;
   background-color: seagreen;
-  height: 100%;
 }
 
-/* .row-1 {
-  /* padding: 0px 10px; */
-/* flex-wrap: wrap; */
+.row-1 {
+  width: 100%;
+  background-color: salmon;
+}
+
+.row-2 {
+  width: 100%;
+  background-color: saddlebrown;
+}
+.row-3 {
+  width: 100%;
+  background-color: royalblue;
+}
+.row-4 {
+  width: 100%;
+  background-color: rosybrown;
+}
+.row-5 {
+  width: 100%;
+  background-color: red;
+}
 
 .heading {
   position: absolute;
   top: 75%;
   left: 5%;
   color: transparent;
-  text-overflow: clip;
   text-transform: uppercase;
   text-wrap: wrap;
 }
@@ -136,7 +155,7 @@
 .row1-pic1 {
   position: relative;
   border: 5px solid white;
-  width: 400px;
+  width: 30%;
   height: 350px;
   background-color: black;
   background-image: url(assets/1.jpg);
@@ -148,7 +167,7 @@
 .row1-pic2 {
   position: relative;
   border: 5px solid white;
-  width: 250px;
+  width: 20%;
   height: 350px;
   background-color: black;
   background-image: url(assets/3.jpg);
@@ -160,7 +179,7 @@
 .row1-pic3 {
   position: relative;
   border: 5px solid white;
-  width: 400px;
+  width: 25%;
   height: 350px;
   background-color: black;
   background-image: url(assets/2.jpg);
@@ -172,7 +191,7 @@
 .row1-pic4 {
   position: relative;
   border: 5px solid white;
-  width: 400px;
+  width: 25%;
   height: 350px;
   background-color: black;
   background-image: url(assets/4.jpg);
@@ -186,7 +205,7 @@
 .row2-pic1 {
   position: relative;
   border: 5px solid white;
-  width: 350px;
+  width: 25%;
   height: 350px;
   background-color: black;
   background-image: url(assets/5.jpg);
@@ -198,7 +217,7 @@
 .row2-pic2 {
   position: relative;
   border: 5px solid white;
-  width: 420px;
+  width: 30%;
   height: 350px;
   background-color: black;
   background-image: url(assets/19.jpg);
@@ -210,7 +229,7 @@
 .row2-pic3 {
   position: relative;
   border: 5px solid white;
-  width: 350px;
+  width: 20%;
   height: 350px;
   background-color: black;
   background-image: url(assets/6.jpg);
@@ -222,7 +241,7 @@
 .row2-pic4 {
   position: relative;
   border: 5px solid white;
-  width: 320px;
+  width: 25%;
   height: 350px;
   background-color: black;
   background-image: url(assets/20.jpg);
@@ -236,7 +255,7 @@
 .row3-pic1 {
   position: relative;
   border: 5px solid white;
-  width: 400px;
+  width: 30%;
   height: 350px;
   background-color: black;
   background-image: url(assets/7.jpg);
@@ -248,7 +267,7 @@
 .row3-pic2 {
   position: relative;
   border: 5px solid white;
-  width: 250px;
+  width: 20%;
   height: 350px;
   background-color: black;
   background-image: url(assets/8.jpg);
@@ -260,7 +279,7 @@
 .row3-pic3 {
   position: relative;
   border: 5px solid white;
-  width: 400px;
+  width: 25%;
   height: 350px;
   background-color: black;
   background-image: url(assets/9.jpg);
@@ -272,7 +291,7 @@
 .row3-pic4 {
   position: relative;
   border: 5px solid white;
-  width: 400px;
+  width: 25%;
   height: 350px;
   background-color: black;
   background-image: url(assets/18.jpg);
@@ -286,7 +305,7 @@
 .row4-pic1 {
   position: relative;
   border: 5px solid white;
-  width: 350px;
+  width: 20%;
   height: 350px;
   background-color: black;
   background-image: url(assets/10.jpg);
@@ -298,7 +317,7 @@
 .row4-pic2 {
   position: relative;
   border: 5px solid white;
-  width: 420px;
+  width: 30%;
   height: 350px;
   background-color: black;
   background-image: url(assets/11.jpg);
@@ -310,7 +329,7 @@
 .row4-pic3 {
   position: relative;
   border: 5px solid white;
-  width: 300px;
+  width: 20%;
   height: 350px;
   background-color: black;
   background-image: url(assets/12.jpg);
@@ -322,7 +341,7 @@
 .row4-pic4 {
   position: relative;
   border: 5px solid white;
-  width: 370px;
+  width: 30%;
   height: 350px;
   background-color: black;
   background-image: url(assets/13.jpg);
@@ -336,7 +355,7 @@
 .row5-pic1 {
   position: relative;
   border: 5px solid white;
-  width: 300px;
+  width: 20%;
   height: 350px;
   background-color: black;
   background-image: url(assets/14.jpg);
@@ -348,7 +367,7 @@
 .row5-pic2 {
   position: relative;
   border: 5px solid white;
-  width: 420px;
+  width: 30%;
   height: 350px;
   background-color: black;
   background-image: url(assets/15.jpg);
@@ -360,7 +379,7 @@
 .row5-pic3 {
   position: relative;
   border: 5px solid white;
-  width: 370px;
+  width: 30%;
   height: 350px;
   background-color: black;
   background-image: url(assets/17.jpg);
@@ -372,11 +391,131 @@
 .row5-pic4 {
   position: relative;
   border: 5px solid white;
-  width: 330px;
+  width: 20%;
   height: 350px;
   background-color: black;
   background-image: url(assets/16.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+.footer {
+  width: 100%;
+  height: 100px;
+  position: sticky;
+  background-color: white;
+}
+
+@media screen and (max-width: 820px) {
+  .nav > a {
+    display: none;
+  }
+  #header {
+    position: relative;
+    background-color: transparent;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .head {
+    padding-left: 5px;
+  }
+  .row-1 {
+    flex-direction: column;
+  }
+  .row-2 {
+    flex-direction: column;
+  }
+
+  .row-3 {
+    flex-direction: column;
+  }
+
+  .row-4 {
+    flex-direction: column;
+  }
+
+  .row-5 {
+    flex-direction: column;
+  }
+
+  .row1-pic1 {
+    width: 100%;
+  }
+
+  .row1-pic2 {
+    width: 100%;
+  }
+
+  .row1-pic3 {
+    width: 100%;
+  }
+
+  .row1-pic4 {
+    width: 100%;
+  }
+
+  .row2-pic1 {
+    width: 100%;
+  }
+
+  .row2-pic2 {
+    width: 100%;
+  }
+
+  .row2-pic3 {
+    width: 100%;
+  }
+
+  .row2-pic4 {
+    width: 100%;
+  }
+
+  .row3-pic1 {
+    width: 100%;
+  }
+
+  .row3-pic2 {
+    width: 100%;
+  }
+
+  .row3-pic3 {
+    width: 100%;
+  }
+
+  .row3-pic4 {
+    width: 100%;
+  }
+
+  .row4-pic1 {
+    width: 100%;
+  }
+
+  .row4-pic2 {
+    width: 100%;
+  }
+
+  .row4-pic3 {
+    width: 100%;
+  }
+
+  .row4-pic4 {
+    width: 100%;
+  }
+
+  .row5-pic1 {
+    width: 100%;
+  }
+
+  .row5-pic2 {
+    width: 100%;
+  }
+
+  .row5-pic3 {
+    width: 100%;
+  }
+
+  .row5-pic4 {
+    width: 100%;
+  }
 }
